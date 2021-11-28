@@ -44,6 +44,7 @@ export const useCreateForm = () => {
         alert(err.message)
       }
       setUsername('')
+      setText('')
     },
     [username]
   )
